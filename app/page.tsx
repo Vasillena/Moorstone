@@ -17,6 +17,7 @@ export default function Home() {
             height: "auto",
           }}
         />
+        <h1 className="text-5xl">Get In Touch</h1>
         <FooterForm />
       </main>
     </div>

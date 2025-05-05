@@ -97,7 +97,7 @@ export default function FooterForm(): JSX.Element {
               className="w-4 h-4 bg-[#00140b] border-[#C4DD80] rounded accent-[#F2EEE9] "
             />
             <label htmlFor="link-checkbox" className="ms-2">
-              Съгласявам се с обработката на лични данни.
+              I agree to the processing of personal data.
             </label>
           </div>
           <div>
