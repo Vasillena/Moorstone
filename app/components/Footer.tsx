@@ -10,7 +10,7 @@ import logo from "@/public/logo-2.svg";
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="max-w-screen py-40 bg-white rounded-t-4xl text-black">
+    <footer className="max-w-screen py-40 bg-[#EFEDEE] rounded-t-4xl text-black">
       <div
         className="max-w-[1440px] mx-auto flex flex-col
  items-center"
