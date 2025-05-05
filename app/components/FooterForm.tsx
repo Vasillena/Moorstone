@@ -17,16 +17,16 @@ export default function FooterForm(): JSX.Element {
         email: e.target.email.value,
         message: e.target.message.value,
         apikey: "24c702b7-d47b-4e0a-91de-83216deae17c",
-        redirect: "https://www.snezhana-aleksieva.com/thank-you",
+        redirect: "https://moorstone.vercel.app/thank-you",
       }),
     });
     const result = await response.json();
     if (result.success) {
-      window.location.href = "https://www.snezhana-aleksieva.com/thank-you";
+      window.location.href = "https://moorstone.vercel.app/thank-you";
       console.log(result);
     } else {
       console.error("Form submission failed:", result);
-      window.location.href = "https://www.snezhana-aleksieva.com/form-failed";
+      window.location.href = "https://moorstone.vercel.app/form-failed";
     }
   }
 
@@ -119,7 +119,7 @@ export default function FooterForm(): JSX.Element {
             <input
               type="hidden"
               name="redirect"
-              value="https://www.snezhana-aleksieva.com/thank-you"
+              value="https://moorstone.vercel.app/thank-you"
             />
           </div>
         </div>
