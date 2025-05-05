@@ -13,7 +13,7 @@ export default function Home() {
           alt="Hero"
           priority
           style={{
-            width: "1132px",
+            width: "1040px",
             height: "auto",
           }}
         />

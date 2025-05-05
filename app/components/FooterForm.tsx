@@ -12,11 +12,11 @@ export default function FooterForm(): JSX.Element {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "a89cba48-651f-4519-8814-e6234e609ccc",
+        access_key: "24c702b7-d47b-4e0a-91de-83216deae17c",
         name: e.target.name.value,
         email: e.target.email.value,
         message: e.target.message.value,
-        apikey: "a89cba48-651f-4519-8814-e6234e609ccc",
+        apikey: "24c702b7-d47b-4e0a-91de-83216deae17c",
         redirect: "https://www.snezhana-aleksieva.com/thank-you",
       }),
     });
@@ -41,7 +41,7 @@ export default function FooterForm(): JSX.Element {
               name="name"
               aria-label="Full Name"
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
               placeholder=""
             />
             <label
@@ -58,7 +58,7 @@ export default function FooterForm(): JSX.Element {
               name="email"
               aria-label="Email"
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
               placeholder=""
             />
             <label
@@ -78,7 +78,7 @@ export default function FooterForm(): JSX.Element {
               rows={4}
               placeholder=""
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[740px] bg-[#004225] rounded-2xl  appearance-none focus:outline-none focus:ring-0 peer resize-none"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-2xl  appearance-none focus:outline-none focus:ring-0 peer resize-none"
             />
             <label
               htmlFor="message"
@@ -103,7 +103,7 @@ export default function FooterForm(): JSX.Element {
           <div>
             <button
               type="submit"
-              className="w-[340px] sm:w-[740px] px-11 py-3 bg-[#C4DD80] text-black font-medium rounded-full relative flex   items-center justify-center overflow-hidden  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#004225]  before:duration-500 before:ease-out hover:shadow-2xl hover:shadow-[#004225] hover:text-[#F2EEE9]  hover:before:h-56 hover:before:w-[420px]"
+              className="w-[340px] md:w-[740px] px-11 py-3 bg-[#C4DD80] text-black font-medium rounded-full relative flex   items-center justify-center overflow-hidden  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#004225]  before:duration-500 before:ease-out hover:shadow-2xl hover:shadow-[#004225] hover:text-[#F2EEE9]  hover:before:h-56 hover:before:w-[740px]"
             >
               <span className="relative z-10"> Send message</span>
             </button>
@@ -114,7 +114,7 @@ export default function FooterForm(): JSX.Element {
             <input
               type="hidden"
               name="apikey"
-              value="a89cba48-651f-4519-8814-e6234e609ccc"
+              value="24c702b7-d47b-4e0a-91de-83216deae17c"
             />
             <input
               type="hidden"

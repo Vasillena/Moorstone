@@ -57,9 +57,9 @@ export default function Navbar(): JSX.Element {
   }, [closeMenu, pathname]);
 
   return (
-    <div className="max-w-[1440px]">
-      <div className="max-w-[1440px] fixed top-0 left-0 right-0 mx-auto z-50">
-        <div className="px-4 sm:px-9 lg:px-16 flex py-3 justify-between items-center border-b border-[#F0EDEE]">
+    <div className="max-w-screen">
+      <div className="max-w-screen fixed top-0 left-0 right-0 mx-auto z-50 bg-[#00140b] border-b border-[#F0EDEE]">
+        <div className="max-w-[1024px] mx-auto flex py-3 justify-between items-center">
           {/* <MainNav>
             <Link href="/" className="ml-4 flex lg:ml-0 lg:mr-6 px-5">
               <Image
