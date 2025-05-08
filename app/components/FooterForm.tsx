@@ -41,7 +41,7 @@ export default function FooterForm(): JSX.Element {
               name="name"
               aria-label="Full Name"
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[540px] lg:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
               placeholder=""
             />
             <label
@@ -58,7 +58,7 @@ export default function FooterForm(): JSX.Element {
               name="email"
               aria-label="Email"
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[540px] lg:w-[740px] bg-[#004225] rounded-full appearance-none focus:outline-none focus:ring-0 peer"
               placeholder=""
             />
             <label
@@ -78,7 +78,7 @@ export default function FooterForm(): JSX.Element {
               rows={4}
               placeholder=""
               required
-              className="block px-2.5 pb-1.5 pt-3 w-[340px] md:w-[740px] bg-[#004225] rounded-2xl  appearance-none focus:outline-none focus:ring-0 peer resize-none"
+              className="block px-2.5 pb-1.5 pt-3 w-[340px] sm:w-[540px] lg:w-[740px] bg-[#004225] rounded-2xl  appearance-none focus:outline-none focus:ring-0 peer resize-none"
             />
             <label
               htmlFor="message"
@@ -103,7 +103,7 @@ export default function FooterForm(): JSX.Element {
           <div>
             <button
               type="submit"
-              className="w-[340px] md:w-[740px] px-11 py-3 bg-[#C4DD80] text-black font-medium rounded-full relative flex   items-center justify-center overflow-hidden  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EFEDEE]  before:duration-500 before:ease-out hover:shadow-2xl hover:shadow-[#004225]  hover:before:h-56 hover:before:w-[740px]"
+              className="w-[340px] sm:w-[540px] lg:w-[740px] px-11 py-3 bg-[#C4DD80] text-black font-medium rounded-full relative flex   items-center justify-center overflow-hidden  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EFEDEE]  before:duration-500 before:ease-out hover:shadow-2xl hover:shadow-[#004225]  hover:before:h-56 hover:before:w-[740px]"
             >
               <span className="relative z-10"> Send message</span>
             </button>
