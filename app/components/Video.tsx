@@ -23,7 +23,7 @@ export function Video(): JSX.Element {
         // loop
         muted
         preload="auto"
-        className="object-cover scale-150 -ml-10"
+        className="object-cover scale-150"
       >
         <source src={heroVideo} type="video/webm" />
         {/* Optional: Add a track for captions if you have them */}
