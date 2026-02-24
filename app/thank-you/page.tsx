@@ -12,8 +12,8 @@ export default async function ThankYouPage(): Promise<JSX.Element> {
       <div className="flex flex-col gap-[32px] row-start-2 items-center">
         <h1 className="text-xl sm:text-7xl">Thank you!</h1>
         <h2 className="text-lg sm:text-2xl font-bold text-center mt-16">
-          Your message has been sent successfully. I will contact you as soon as
-          possible. Thank you for contacting me!
+          Your message has been sent successfully. We will contact you as soon as
+          possible. Thank you for contacting us!
         </h2>
         <div className="my-16">
           <MainButton href={"/"} text={"Home page"} />
