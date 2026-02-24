@@ -17,7 +17,7 @@ export default function Footer(): JSX.Element {
       >
         <Image
           src={logo}
-          alt="Logo"
+          alt="Company logo"
           priority
           style={{
             width: "205px",
@@ -35,3 +35,4 @@ export default function Footer(): JSX.Element {
     </footer>
   );
 }
+
